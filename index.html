@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <h1>Виселица</h1>
+        <label for="theme-select">Выберите тему:</label>
+        <select  id="theme-select">
+            <option value="0">Бренды Автомобилей</option>
+            <option value="1">Аниме</option>
+            <option value="2">Фрукты</option>
+        </select>
+        <div id="game-container">
+            <div id="word-container">
+                <p id="word"></p>
+            </div>
+            <div id="attempts-container">
+                <p>Осталось попыток:<span id="attempts">6</span></p>
+            </div>
+            <div id="input-container">
+                <input type="text" id="letter-input" maxlength="1">
+                <button id="guess-button">Угадать</button>
+            </div>
+        </div>
+       <script src="script.js"></script> 
+</body>
+</html>
